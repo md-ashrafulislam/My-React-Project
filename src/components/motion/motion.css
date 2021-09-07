@@ -1,0 +1,135 @@
+.motionGroup {
+    background: url('../../images/Sinus2.jpg');
+    width: 100%;
+    height: 1400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+@media (max-width: 768px) {
+    .motionGroup{
+        height: 1550px;
+    }
+}
+@media (max-width: 475px) {
+    .motionGroup{
+        height: 1950px;
+    }
+}
+
+.waveBottom {
+    position: absolute;
+    width: 100%;
+    bottom: -6px;
+}
+
+.waveTop{
+    position: absolute;
+    width: 100%;
+    top: -6px;
+    transform: rotate(180deg);
+}
+
+.motionlist {
+    /* color:white; */
+    position: absolute;
+    top: 30%;
+    display: grid;
+    /* max-width: 95%; */
+    grid-template-columns: 300px auto;
+    
+    justify-items: center;
+    /* text-align: center; */
+    gap: 40px;
+    padding-left: 300px;
+}
+
+.motionlist h1 {
+    /* width: 70%; */
+    font-family: SF Pro Display;
+    font-family: SF Pro Display;
+    font-size: 60px;
+    line-height: 70px;
+    color: rgba(84, 157, 255, 1) ; 
+}
+
+.motionsectionGroup p {
+    max-width: 80%;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 50px;
+}
+.motionlist .para {
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+.motionlist h3 {
+    font-family: SF Pro Text;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.108px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: normal;
+    
+}
+@media (max-width:1024px) {
+    .motionlist {   
+        padding-left: 150px;
+    }
+}
+
+@media (max-width:768px) {
+    .motionlist {   
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        padding-left: 70px;
+        /* text-align: center; */
+    
+    }
+    .motionlist h1 {
+        margin-bottom: 0;
+        font-size: 60px;
+    }
+}
+
+@media (max-width:475px) {
+    .motionlist {   
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        padding-left: 70px;
+        /* text-align: center; */
+    
+    }
+    .motionlist h1 {
+        margin-bottom: 0;
+        font-size: 50px;
+    }
+}
+
+.motionlogo {
+    position: absolute;
+    top: 20%;
+    left: 48%;
+}
+
+@media (max-width:768px) {
+    .motionlogo {
+        position: absolute;
+        top: 15%;
+        left: 40%;
+    }
+}
+
+@media (max-width:475px) {
+    .motionlogo {
+        position: absolute;
+        top: 20%;
+        left: 35%;
+    }
+}

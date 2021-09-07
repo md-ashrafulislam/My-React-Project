@@ -1,0 +1,67 @@
+.arkitGroup {
+    display: grid;
+    max-width: 95%;
+    grid-template-columns: 300px auto;
+    
+    justify-items: center;
+    /* text-align: center; */
+    gap: 40px;
+    padding-left: 300px;
+
+}
+
+
+
+.arkitGroup p {
+    /* Text */
+    width: 70%;
+    font-family: SF Pro Text;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    color: #205284;
+    padding-top: 50px;
+    /* text-align: center; */
+
+}
+.arkitGroup h1 {
+    /* width: 70%; */
+    font-family: SF Pro Display;
+    font-size: 80px;
+    line-height: 94px;
+    color: #8C00BC ; 
+}
+
+.arkitGroup h3 {
+    font-family: SF Pro Text;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.108px;
+    text-transform: uppercase;
+    color: #B9C8DD;
+    font-weight: normal;
+    
+}
+@media (max-width:1024px) {
+    .arkitGroup {
+        
+        padding-left: 150px;
+
+    
+    }
+}
+
+@media (max-width:768px) {
+    .arkitGroup {
+        
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        padding-left: 70px;
+        /* text-align: center; */
+    
+    }
+    .arkitGroup h1 {
+        margin-bottom: 0;
+        font-size: 60px;
+    }
+}
